@@ -158,10 +158,10 @@ function checkAnswer(q, correct){
   const el = document.getElementById("r_"+q);
 
   if(correct){
-    el.innerHTML = "✅ Correcto mi amor";
+    el.innerHTML = "✅Correcto mi amor✅";
     answered[q] = true;
   } else {
-    el.innerHTML = "❌ Incorrecto 😄 intenta otra vez";
+    el.innerHTML = "❌Incorrecto, intenta otra vez"❌";
   }
 
   if(answered.q1 && answered.q2){
@@ -207,3 +207,4 @@ setInterval(heart, 400);
 
 </body>
 </html>
+
